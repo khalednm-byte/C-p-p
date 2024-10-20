@@ -1,9 +1,6 @@
 #include <iostream>
 #include <vector>
 
-/*
-    *This is an AI generated code by - Copilot
-*/
 
 class DynamicQueue {
 private:
@@ -11,7 +8,7 @@ private:
 
 public:
     DynamicQueue() {
-        // Initialize an empty queue
+        
     }
 
     bool isEmpty() const {
@@ -44,8 +41,8 @@ int main() {
     dq.enqueue(10);
     dq.enqueue(20);
     dq.enqueue(30);
-    dq.display_queue(); // Output: 10 20 30
+    dq.display_queue(); 
     dq.dequeue();
-    dq.display_queue(); // Output: 20 30
+    dq.display_queue(); 
     return 0;
 }
